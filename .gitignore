@@ -1,0 +1,10 @@
+/.project
+.idea/
+/.idea
+.firebase
+**/node_modules
+/.vscode
+.vscode
+.history
+/.travis.yml
+/appveyor.yml

@@ -1,0 +1,45 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+<title>减肥</title>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type">
+<script src="js/jquery.1.11.0.min.js"></script>
+<style type="text/css">
+    body{margin: 0}
+    #app{
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+    }
+    .f1{
+        width: 100%;
+        font-size: 80px;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        font-weight: bold;
+    }
+    .maxCont{display: block;}
+    .minCont{display: none;}
+    @media screen and (min-width: 1199px) {
+        .maxCont{display: block;}
+        .minCont{display: none;}
+    }
+    @media screen and (max-width: 1199px) {
+        .maxCont{display: none;}
+        .minCont{display: block;}
+    }
+</style>
+</head>
+<body>
+    <div id="app">
+        <div class="f1">2021瘦10斤！</div>
+        <div class="maxCont"><img width="100%" src="./images/banner.png"></div>
+        <div class="minCont"><img width="100%" src="./images/banner02.jpeg"></div>
+    </div>
+</body>
+<script></script>
+</html>
+
